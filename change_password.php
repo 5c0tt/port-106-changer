@@ -1,7 +1,7 @@
 <html>
 <?php 
 
-    $server = 'mail.exampple.com';
+    $server = 'mail.example.com';
     $whoamI = 'host.example.com';
     $pwport = 106;
     $smtpport = 25;
