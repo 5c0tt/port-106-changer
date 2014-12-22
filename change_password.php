@@ -1,8 +1,8 @@
 <html>
 <?php 
 
-    $server = 'mailhost.icompute.com';
-    $whoamI = 'mercy.icompute.com';
+    $server = 'mail.exampple.com';
+    $whoamI = 'host.example.com';
     $pwport = 106;
     $smtpport = 25;
     $verboseMode = 0;   // 1 to have exchange output to page, 0 to not.
@@ -10,8 +10,7 @@
     $FormData = $HTTP_POST_VARS;
 
     $errMsg = '';
-    if ($FormData['action'] == 'changeit')
-    {
+    if ($FormData['action'] == 'changeit') {
         
         $emailAddress = $FormData['emailAddress'];
         $oldPWD = $FormData['oldPWD'];
